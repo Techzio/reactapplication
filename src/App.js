@@ -1,3 +1,4 @@
+import Menu from './components/MenuComponent';
 import React,{Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -10,9 +11,10 @@ class App extends Component {
     <div className="App">
       <Navbar dark color="primary">
           <div className="container">
-            <NavbarBrand href="/">Book Magic</NavbarBrand>
+            <NavbarBrand href="/">Sarvi Bhavan</NavbarBrand>
           </div>
         </Navbar>
+        <Menu/>
     </div>
   );
 }
